@@ -64,3 +64,42 @@
     border-color:#d0b200;
     border-radius:8px;
 }
+
+.wcu-section{
+    background-color:#f9fbfe;
+}
+
+.wcu-section-heading{
+    font-family:"Roboto";
+    font-weight:700;
+    font-size:28px;
+    color:#183b56;
+}
+
+.wcu-section-description{
+    font-family:"Roboto";
+    font-size:16px;
+    color:#5a7184;
+}
+
+.wcu-card{
+    background-color:white;
+}
+
+.wcu-card-image{
+    height:90px;
+    width:87px;
+}
+
+.wcu-card-title{
+    font-family:"Roboto";
+    font-weight:500;
+    font-size:22px;
+    color:#323f4b;
+}
+
+.wcu-card-description{
+    font-family:"Roboto";
+    font-size:16px;
+    color:#7b8794;
+}
