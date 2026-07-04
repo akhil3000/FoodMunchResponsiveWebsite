@@ -116,3 +116,45 @@
     font-weight:600;
     font-style:italic;
 }
+
+.explore-menu-section{
+    background-color:white;
+    padding-left:120px;
+}
+
+.menu-section-heading{
+    font-family:"Roboto";
+    font-weight:700;
+    font-size:28px;
+    color:#183b56;
+    text-align:center;
+
+}
+
+.menu-item-image{
+    border-radius:16px;
+    width:200px;
+    height:170px;
+}
+
+.menu-card-title{
+    color:#323f4b;
+    font-family:"Roboto";
+    font-weight:500;
+    font-size:18px;
+    margin-top:24px;
+}
+
+.menu-item-link{
+    color:#d0b200;
+    font-family:"Roboto";
+    font-weight:500;
+    font-size:14px;
+}
+
+.menu-item-card{
+    border-radius:16px;
+    width:230px;
+    height:280px;
+    text-align:center;
+}
