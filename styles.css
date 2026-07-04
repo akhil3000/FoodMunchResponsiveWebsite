@@ -74,16 +74,23 @@
     font-weight:700;
     font-size:28px;
     color:#183b56;
+    text-align:center;
 }
 
 .wcu-section-description{
     font-family:"Roboto";
     font-size:16px;
     color:#5a7184;
+    text-align:center;
 }
 
 .wcu-card{
     background-color:white;
+    text-align:center;
+    border-style:solid;
+    border-width:1px;
+    border-color:#e5eaf4;
+    border-radius:16px;
 }
 
 .wcu-card-image{
@@ -102,4 +109,10 @@
     font-family:"Roboto";
     font-size:16px;
     color:#7b8794;
+}
+
+.offers{
+    color:#323f4b;
+    font-weight:600;
+    font-style:italic;
 }
