@@ -63,6 +63,7 @@
     border-style:solid;
     border-color:#d0b200;
     border-radius:8px;
+    
 }
 
 .wcu-section{
@@ -187,6 +188,7 @@
     border-width: 0;
     border-radius: 8px;
     margin-right: 10px;
+    background-image: linear-gradient(#d0b200, #a58d00);
 }
 
 .delivery-and-payment-section-img {
@@ -214,6 +216,8 @@
 
 .thanking-customers-section {
     background-color: #d0b2001a;
+    background-image:radial-gradient(#fff8db,#fae38c);
+
 }
 
 .thanking-customers-section-heading {
@@ -279,4 +283,23 @@
     padding-left:22px;
     margin:15px;
     border-radius:50%;
+}
+
+.modalbutton{
+        width: 160px;
+        height: 55px;
+        color: white;
+        background-color: #d0b200;
+        border-width: 0;
+        border-radius: 8px;
+        margin-right: 10px;
+        background-image:linear-gradient(#d0b200,#a58d00); 
+
+}
+
+
+.thanking-customers-section-modal-title{
+ color:#d0b200;
+ font-weight:800;
+ 
 }

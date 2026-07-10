@@ -103,11 +103,10 @@
     </div>
     
        
-    
+    <h1 class="menu-section-heading">
+        Explore Menu
+    </h1>
     <div class="explore-menu-section pt-3 pb-5" id="explore-menu-section">
-        <h1 class="menu-section-heading">
-            Explore Menu
-        </h1>
        <div class="container">
          <div class="row">
            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p">
@@ -291,7 +290,7 @@
                             class="delivery-and-payment-section-img" />
                     </div>
                 </div>
-                <div class="col-12 col-md-7 order-2 order-md-1">
+                <div class="col-12 col-md-7 order-2 order-md-1 text-center">
                     <h1 class="delivery-and-payment-section-heading">
                         Delivery and Payment
                     </h1>
@@ -331,7 +330,7 @@
     <div class="thanking-customers-section pt-5 pb-5" id="thanking-customer-section">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-center text-center">
                     <h1 class="thanking-customers-section-heading">
                         Thank you for being a valuable customer to us.
                     </h1>
@@ -340,9 +339,34 @@
                     </p>
                     <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png"
                         class="thanking-customers-section-img d-md-none" />
-                
-                    <div>
-                       <button class="custom-button">Redeem Gift</button>
+                   <div class="d-flex flex-row justify-content-center"> 
+                    
+                    <!-- Button trigger modal -->
+                    <button type="button" class="modalbutton" data-toggle="modal" data-target="#exampleModal">
+                        Redeem Gift
+                    </button>
+                   </div>    
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog mt-5" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title  thanking-customers-section-modal-title" id="exampleModalLabel">Gift Voucher</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQE3n4qViWFq7A5q4mvkHH1M961o9ne0-_ynO7ikeh3g&s=10" 
+                                class="voucherimage w-100"/>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 
                 </div>
